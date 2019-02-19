@@ -1,0 +1,29 @@
+{
+  "name": "machine-learning",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register test/*.spec.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorapiotr/machine-learning.git"
+  },
+  "author": "Piotr Gora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gorapiotr/machine-learning/issues"
+  },
+  "homepage": "https://github.com/gorapiotr/machine-learning#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
