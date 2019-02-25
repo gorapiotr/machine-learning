@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "mocha -r ts-node/register test/*.spec.ts",
+    "test": "mocha -r ts-node/register test/*/*.spec.ts",
     "build": "tsc"
   },
   "repository": {
@@ -18,12 +18,19 @@
     "url": "https://github.com/gorapiotr/machine-learning/issues"
   },
   "homepage": "https://github.com/gorapiotr/machine-learning#readme",
+  "dependencies": {
+    "ml-matrix": "^5.0.1",
+    "ml-stat": "^1.1.0"
+  },
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
     "chai": "^4.2.0",
-    "mocha": "^6.0.0",
+    "mocha": "^6.0.2",
     "ts-node": "^8.0.2",
-    "typescript": "^3.3.3"
+    "typescript": "^3.3.3333",
+    "@types/node": "^11.9.5",
+    "ml-dataset-iris": "^1.0.0",
+    "random-js": "^1.0.8"
   }
 }
