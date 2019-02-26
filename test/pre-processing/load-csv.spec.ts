@@ -8,7 +8,6 @@ describe('Load csv file', () => {
 
         const expectedValues: string[] = ['Id', 'SepalLenCm', 'SepalWidCm', 'PetalLenCm', 'PetalWidCm', 'Species'];
 
-
         let importData = new ImportCsv();
         const data = await importData.load('iris.csv');
 
@@ -17,7 +16,7 @@ describe('Load csv file', () => {
 
     it('Get as JSON Object', async () => {
 
-        const expectedJsonObject = {
+        const expectedJsonObject: Object = {
             Id: '1',
             SepalLenCm: '5.1',
             SepalWidCm: '3.5',
@@ -29,6 +28,7 @@ describe('Load csv file', () => {
         let importData = new ImportCsv();
         await importData.load('iris.csv');
         const fileAsJson: any = importData.getAsJsonObjectsArray();
+
         expect(fileAsJson[0]).to.deep.equal(expectedJsonObject);
     });
 
@@ -41,5 +41,21 @@ describe('Load csv file', () => {
         const distinctClasses = importData.getDistinctClasses();
 
         expect(distinctClasses).to.deep.equal(expectedDistinctClasses);
+    });
+
+    it('Get Values', async () => {
+
+        const expectedValues: string[][] = [
+            ['1', '5.1', '3.5', '1.4'],
+            ['2', '4.9', '3', '1.4'],
+            ['3', '4.7', '3.2', '1.3'],
+            ['4', '4.6', '3.1', '1.5']
+        ];
+
+        let importData = new ImportCsv();
+        await importData.load('iris.csv');
+        const values = importData.getValues();
+
+        expect(values.slice(0,4)).to.deep.equal(expectedValues);
     });
 });

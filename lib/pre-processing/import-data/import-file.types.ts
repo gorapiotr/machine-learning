@@ -29,8 +29,14 @@ export abstract class ImportFileGeneric implements ImportFile {
     getDistinctClasses(): any {
         let file = JSON.parse(JSON.stringify(this._file));
         file.shift();
-        file = file.map( (item:any) => item[file[0].length -1]);
+        file = file.map((item: any) => item[file[0].length - 1]);
         return Array.from(new Set(file));
+    }
+
+    getValues(): any {
+        let file = JSON.parse(JSON.stringify(this._file));
+        file.shift();
+        return file.map((d: any) => d.slice(0, 4));
     }
 }
 
@@ -43,4 +49,6 @@ export interface ImportFile {
     getAsJsonObjectsArray(): any;
 
     getDistinctClasses(): any;
+
+    getValues(): any;
 }
