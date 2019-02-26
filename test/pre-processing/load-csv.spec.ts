@@ -10,7 +10,7 @@ describe('Load csv file', () => {
 
 
         let importData = new ImportCsv();
-        const data = await importData.load('Iris.csv');
+        const data = await importData.load('iris.csv');
 
         expect(data[0]).to.include.members(value);
     });
