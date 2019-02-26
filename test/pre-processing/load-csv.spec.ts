@@ -14,4 +14,21 @@ describe('Load csv file', () => {
 
         expect(data[0]).to.include.members(value);
     });
+
+    it('Get as JSON Object', async () => {
+
+        const firstJsonObject = {
+            Id: '1',
+            SepalLenCm: '5.1',
+            SepalWidCm: '3.5',
+            PetalLenCm: '1.4',
+            PetalWidCm: '0.2',
+            Species: 'Iris-setosa'
+        };
+
+        let importData = new ImportCsv();
+        await importData.load('iris.csv');
+        const fileAsJson: any = importData.getAsJsonObjectsArray();
+        expect(fileAsJson[0]).to.deep.equal(firstJsonObject);
+    })
 });

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="24b5ebf1-cec6-4407-bda4-f65b077b8ae2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts" afterPath="$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts" />
+      <change beforePath="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" afterPath="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +18,8 @@
       <file leaf-file-name="load-csv.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="346">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -28,8 +30,8 @@
       <file leaf-file-name="import-csv.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state relative-caret-position="452">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -48,8 +50,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts" />
         <option value="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" />
       </list>
     </option>
@@ -64,6 +66,9 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -141,6 +146,28 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Load csv file.Get as JSON Object" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options>--require ts-node/register</extra-mocha-options>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts</test-file>
+      <test-names>
+        <name value="Load csv file" />
+        <name value="Get as JSON Object" />
+      </test-names>
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Load csv file.Get as JSON Object" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -155,12 +182,44 @@
       <option name="presentableId" value="Default" />
       <updated>1551204925011</updated>
       <workItem from="1551204926433" duration="503000" />
-      <workItem from="1551205434342" duration="914000" />
+      <workItem from="1551205434342" duration="2770000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 18m 28s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 20m 14s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 22m 01s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 26m 36s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 27m 45s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 29m 03s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 29m 15s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 30m 57s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 31m 02s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_as_JSON_Object - 2019.02.26 at 20h 31m 08s.xml">
+      <configuration name="Load csv file.Get as JSON Object" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1417000" />
+    <option name="totallyTimeSpent" value="3273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -170,8 +229,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -225,14 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -241,10 +292,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="346">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
