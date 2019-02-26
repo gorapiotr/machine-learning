@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b5ebf1-cec6-4407-bda4-f65b077b8ae2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts" afterPath="$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts" />
+      <change beforePath="$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts" afterPath="$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts" />
       <change beforePath="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" afterPath="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="load-csv.spec.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="load-csv.spec.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+            <state relative-caret-position="358">
+              <caret line="78" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="3" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -29,8 +31,8 @@
       <file leaf-file-name="iris.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/ml-dataset-iris/src/iris.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -49,18 +51,18 @@
       <file leaf-file-name="import-file.types.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="-45">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iris.spec.spec.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="iris.spec.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="46" />
+            <state relative-caret-position="293">
+              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -84,9 +86,9 @@
       <list>
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts" />
-        <option value="$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts" />
         <option value="$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts" />
         <option value="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" />
+        <option value="$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts" />
       </list>
     </option>
   </component>
@@ -209,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Load csv file">
+  <component name="RunManager" selected="Mocha.Load csv file.Get Classes">
     <configuration name="Load csv file" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -222,6 +224,21 @@
       <test-file>$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts</test-file>
       <test-names>
         <name value="Load csv file" />
+      </test-names>
+    </configuration>
+    <configuration name="Load csv file.Get Classes" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options>--require ts-node/register</extra-mocha-options>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts</test-file>
+      <test-names>
+        <name value="Load csv file" />
+        <name value="Get Classes" />
       </test-names>
     </configuration>
     <configuration name="Load csv file.Get as JSON Object" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
@@ -239,14 +256,16 @@
         <name value="Get as JSON Object" />
       </test-names>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Mocha.Load csv file.Get as JSON Object" />
       <item index="1" class="java.lang.String" itemvalue="Mocha.Load csv file" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.Load csv file.Get Classes" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Load csv file" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Load csv file.Get as JSON Object" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Load csv file.Get Classes" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Load csv file" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Load csv file.Get as JSON Object" />
       </list>
     </recent_temporary>
   </component>
@@ -264,17 +283,11 @@
       <option name="presentableId" value="Default" />
       <updated>1551204925011</updated>
       <workItem from="1551204926433" duration="503000" />
-      <workItem from="1551205434342" duration="7175000" />
+      <workItem from="1551205434342" duration="8051000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Load_csv_file - 2019.02.26 at 21h 27m 57s.xml">
-      <configuration name="Load csv file" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Load_csv_file - 2019.02.26 at 22h 08m 08s.xml">
-      <configuration name="Load csv file" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Load_csv_file - 2019.02.26 at 22h 08m 25s.xml">
       <configuration name="Load csv file" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -299,9 +312,15 @@
     <history-entry file="Load_csv_file - 2019.02.26 at 22h 19m 22s.xml">
       <configuration name="Load csv file" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Load_csv_file_Get_Classes - 2019.02.26 at 22h 38m 13s.xml">
+      <configuration name="Load csv file.Get Classes" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Load_csv_file_Get_Classes - 2019.02.26 at 22h 38m 27s.xml">
+      <configuration name="Load csv file.Get Classes" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7678000" />
+    <option name="totallyTimeSpent" value="8554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -382,20 +401,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts">
+    <entry file="file://$PROJECT_DIR$/lib/naive-bayes/gaussian-naive-bayes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/ml-dataset-iris/src/iris.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -408,18 +417,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/ml-dataset-iris/src/iris.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="69" column="21" lean-forward="false" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        <state relative-caret-position="358">
+          <caret line="78" column="48" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>

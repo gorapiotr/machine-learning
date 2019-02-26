@@ -15,6 +15,7 @@ for (let i = 0; i < classes.length; ++i) {
     transform[classes[i]] = i;
 }
 
+
 for (let i = 0; i < y.length; ++i) {
     y[i] = transform[y[i]];
 }

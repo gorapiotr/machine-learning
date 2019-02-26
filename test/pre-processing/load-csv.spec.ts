@@ -56,7 +56,7 @@ describe('Load csv file', () => {
         await importData.load('iris.csv');
         const values = importData.getValues();
 
-        expect(values.slice(0,4)).to.deep.equal(expectedValues);
+        expect(values.slice(0, 4)).to.deep.equal(expectedValues);
     });
 
     it('Get Labels', async () => {
@@ -68,5 +68,16 @@ describe('Load csv file', () => {
         const labels = importData.getLabels();
 
         expect(labels).to.deep.equal(expectedLabel);
-    })
+    });
+
+    it('Get Classes', async () => {
+
+        const expectedClasses: string[] = ['Iris-setosa', 'Iris-setosa', 'Iris-setosa'];
+
+        let importData = new ImportCsv();
+        await importData.load('iris.csv');
+        const classes = importData.getClasses();
+
+        expect(classes.slice(0, 3)).to.deep.equal(expectedClasses);
+    });
 });
