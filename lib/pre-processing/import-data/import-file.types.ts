@@ -38,6 +38,10 @@ export abstract class ImportFileGeneric implements ImportFile {
         file.shift();
         return file.map((d: any) => d.slice(0, 4));
     }
+
+    getLabels(): any {
+        return this._file[0];
+    }
 }
 
 
@@ -51,4 +55,6 @@ export interface ImportFile {
     getDistinctClasses(): any;
 
     getValues(): any;
+
+    getLabels(): any;
 }

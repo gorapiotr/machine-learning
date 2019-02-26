@@ -58,4 +58,15 @@ describe('Load csv file', () => {
 
         expect(values.slice(0,4)).to.deep.equal(expectedValues);
     });
+
+    it('Get Labels', async () => {
+
+        const expectedLabel: string[] = ['Id', 'SepalLenCm', 'SepalWidCm', 'PetalLenCm', 'PetalWidCm', 'Species'];
+
+        let importData = new ImportCsv();
+        await importData.load('iris.csv');
+        const labels = importData.getLabels();
+
+        expect(labels).to.deep.equal(expectedLabel);
+    })
 });
