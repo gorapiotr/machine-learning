@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b5ebf1-cec6-4407-bda4-f65b077b8ae2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts" afterPath="$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts" />
-      <change beforePath="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" afterPath="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts" afterPath="$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="load-csv.spec.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="load-csv.spec.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
@@ -49,21 +49,31 @@
       <file leaf-file-name="import-file.types.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="255">
               <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iris.spec.spec.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="iris.spec.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="390">
+              <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/utils.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,9 +94,10 @@
       <list>
         <option value="$PROJECT_DIR$/tslint.json" />
         <option value="$PROJECT_DIR$/lib/pre-processing/import-data/import-csv.ts" />
-        <option value="$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts" />
         <option value="$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts" />
         <option value="$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts" />
+        <option value="$PROJECT_DIR$/test/utils.ts" />
+        <option value="$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts" />
       </list>
     </option>
   </component>
@@ -156,31 +167,13 @@
             <path>
               <item name="machine-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine-learning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="machine-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine-learning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pre-processing" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="machine-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine-learning" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pre-processing" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="import-data" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="machine-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="machine-learning" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="machine-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine-learning" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pre-processing" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="naive-bayes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -281,7 +274,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551204925011</updated>
       <workItem from="1551204926433" duration="503000" />
-      <workItem from="1551205434342" duration="8285000" />
+      <workItem from="1551205434342" duration="9271000" />
     </task>
     <servers />
   </component>
@@ -318,7 +311,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8788000" />
+    <option name="totallyTimeSpent" value="9774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -330,7 +323,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -423,10 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts">
+    <entry file="file://$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="298">
+          <caret line="84" column="50" lean-forward="false" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -435,16 +428,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pre-processing/import-data/import-file.types.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="255">
           <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pre-processing/load-csv.spec.ts">
+    <entry file="file://$PROJECT_DIR$/test/utils.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="84" column="50" lean-forward="false" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
+        <state relative-caret-position="465">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/naive-bayes/iris.spec.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
