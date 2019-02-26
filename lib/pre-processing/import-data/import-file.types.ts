@@ -36,20 +36,21 @@ export abstract class ImportFileGeneric implements ImportFile {
         return Array.from(new Set(this.getClasses()));
     }
 
-    // getDistinctClassesAsNumbers(): number[] {
-    //     let y = irisDataset.getClasses();
-    //     let classes = irisDataset.getDistinctClasses();
-    //
-    //     let transform: any = {};
-    //     for (let i = 0; i < classes.length; ++i) {
-    //         transform[classes[i]] = i;
-    //     }
-    //
-    //
-    //     for (let i = 0; i < y.length; ++i) {
-    //         y[i] = transform[y[i]];
-    //     }
-    // }
+    getDistinctClassesAsNumbers(): number[] {
+        let y = this.getClasses();
+        let classes = this.getDistinctClasses();
+
+        let transform: any = {};
+        for (let i = 0; i < classes.length; ++i) {
+            transform[classes[i]] = i;
+        }
+
+        for (let i = 0; i < y.length; ++i) {
+            y[i] = transform[y[i]];
+        }
+
+        return y;
+    }
 
     getValues(): any {
         let file = JSON.parse(JSON.stringify(this._file));
@@ -74,7 +75,7 @@ export interface ImportFile {
 
     getDistinctClasses(): any;
 
-    // getDistinctClassesAsNumbers(): number[];
+    getDistinctClassesAsNumbers(): number[];
 
     getValues(): any;
 

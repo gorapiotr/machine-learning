@@ -80,4 +80,14 @@ describe('Load csv file', () => {
 
         expect(classes.slice(0, 3)).to.deep.equal(expectedClasses);
     });
+
+    it('Get Distinct Classes as numbers', async () => {
+        const expectedNumbers: number[] = [0, 0, 0];
+
+        let importData = new ImportCsv();
+        await importData.load('iris.csv');
+        const classes = importData.getDistinctClassesAsNumbers();
+
+        expect(classes.slice(0, 3)).to.deep.equal(expectedNumbers);
+    });
 });
