@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/gorapiotr/machine-learning#readme",
   "dependencies": {
+    "fast-csv": "^2.4.1",
+    "fs": "0.0.1-security",
     "ml-matrix": "^5.0.1",
     "ml-stat": "^1.1.0"
   },
