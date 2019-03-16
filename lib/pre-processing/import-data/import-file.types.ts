@@ -1,8 +1,10 @@
+import {transpose} from "../utils/transpose";
+
 export abstract class ImportFileGeneric implements ImportFile {
 
     protected _file: any = [];
 
-    abstract load(src: string): void;
+    abstract load(src: string): Promise<any[]>;
 
     getAsArray(): any {
         if (this._file) {
@@ -40,32 +42,46 @@ export abstract class ImportFileGeneric implements ImportFile {
         let y = this.getClasses();
         let classes = this.getDistinctClasses();
 
+        return this.getPropertiesAsNumbers(y, classes);
+    }
+
+    private getPropertiesAsNumbers(properties: any, classes: any): number[] {
         let transform: any = {};
         for (let i = 0; i < classes.length; ++i) {
             transform[classes[i]] = i;
         }
 
-        for (let i = 0; i < y.length; ++i) {
-            y[i] = transform[y[i]];
+        for (let i = 0; i < properties.length; ++i) {
+            properties[i] = transform[properties[i]];
         }
-
-        return y;
+        return properties;
     }
 
-    getValues(): any {
+    getValues(startValue: number, endValue: number): any {
         let file = JSON.parse(JSON.stringify(this._file));
         file.shift();
-        return file.map((d: any) => d.slice(0, 4));
+        return file.map((d: any) => d.slice(startValue, endValue));
+    }
+
+    getValuesAsNumbers(startValue: number, endValue: number) {
+        let values = this.getValues(startValue, endValue);
+        values = transpose(values);
+        const prop = values.map( (row: any) => Array.from(new Set(row)));
+        return transpose(values.map( (item:any, index: number) => this.getPropertiesAsNumbers(item, prop[index])));
     }
 
     getLabels(): any {
         return this._file[0];
     }
+
+    set file(file: any) {
+        this._file = file;
+    }
 }
 
 
 export interface ImportFile {
-    load(src: string): void;
+    load(src: string): Promise<any[]> | any;
 
     getAsArray(): any
 
@@ -77,7 +93,7 @@ export interface ImportFile {
 
     getDistinctClassesAsNumbers(): number[];
 
-    getValues(): any;
+    getValues(startValue: number, endValue: number): any;
 
     getLabels(): any;
 }
